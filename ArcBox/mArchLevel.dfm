@@ -1,0 +1,53 @@
+object ArchLevelForm: TArchLevelForm
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = #22311#32302#12524#12505#12523#12398#35373#23450
+  ClientHeight = 81
+  ClientWidth = 185
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poOwnerFormCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object TrackBar: TTrackBar
+    Left = 8
+    Top = 8
+    Width = 169
+    Height = 33
+    Max = 9
+    ShowSelRange = False
+    TabOrder = 0
+    ThumbLength = 14
+    TickMarks = tmBoth
+    OnChange = TrackBarChange
+  end
+  object OKButton: TButton
+    Left = 8
+    Top = 48
+    Width = 81
+    Height = 25
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    TabOrder = 1
+  end
+  object CancelButton: TButton
+    Left = 96
+    Top = 48
+    Width = 81
+    Height = 25
+    Caption = #12461#12515#12531#12475#12523
+    ModalResult = 2
+    TabOrder = 2
+  end
+end

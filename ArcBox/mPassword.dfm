@@ -1,0 +1,60 @@
+object PasswordForm: TPasswordForm
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = #12497#12473#12527#12540#12489
+  ClientHeight = 89
+  ClientWidth = 233
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poOwnerFormCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Edit: TEdit
+    Left = 8
+    Top = 8
+    Width = 217
+    Height = 21
+    PasswordChar = #9679
+    TabOrder = 0
+    OnChange = EditChange
+  end
+  object CheckBox: TCheckBox
+    Left = 8
+    Top = 32
+    Width = 217
+    Height = 17
+    Caption = #12497#12473#12527#12540#12489#12434#34920#31034#12377#12427'(&S)'
+    TabOrder = 1
+    OnClick = CheckBoxClick
+  end
+  object OKButton: TButton
+    Left = 56
+    Top = 56
+    Width = 81
+    Height = 25
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    TabOrder = 2
+  end
+  object CancelButton: TButton
+    Left = 144
+    Top = 56
+    Width = 81
+    Height = 25
+    Cancel = True
+    Caption = #12461#12515#12531#12475#12523
+    ModalResult = 2
+    TabOrder = 3
+  end
+end

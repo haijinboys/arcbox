@@ -1,0 +1,114 @@
+﻿--------------------------------------------------------------------------------
+ArcBox
+
+Copyright (c) Kuro. All Rights Reserved.
+e-mail: info@haijin-boys.com
+www:    http://www.haijin-boys.com/
+--------------------------------------------------------------------------------
+
+● はじめに
+
+	▼ 概要
+
+		ArcBoxはシンプルな圧縮形式変換ソフトです。
+
+	▼ アーカイブ内容
+
+		ArcBox.exe : 本体
+		ArcBox.txt : 本ドキュメント
+		7z.dll     : 7z圧縮・解凍ライブラリ
+		unrar.dll  : Rar解凍ライブラリ
+
+● 動作環境
+
+		Windows XP, Vista, 7, 8 (32ビット)
+		Windows 7 (64ビット) ※ 32ビットモードで動作します。
+
+● 動作確認
+
+		Windows XP, Vista, 7, 8 (32ビット)
+		Windows 7 (64ビット) ※ 32ビットモードで動作します。
+
+● インストール
+
+		アーカイブを適当なフォルダに解凍します。
+
+● アップデート
+
+		解凍した中身をすべて上書きしてください。
+
+● アンインストール
+
+		レジストリは使用していませんので、解凍したフォルダを削除してください。
+		設定ファイルは下記のフォルダに保存されています。
+
+			Windows XP
+				C:\Documents and Settings\xxxx\Application Data\ArcBox
+
+			Windows Vista, 7, 8
+				C:\Users\xxxx\AppData\Roaming\ArcBox
+
+● 使い方
+
+		ArcBox.exeに変換したい圧縮ファイルをドラッグドロップします。初期設定では
+		書庫と同じ場所にZIP形式で保存されます。ArcBox.exeを起動すると変換する書庫
+		形式などを設定することができます。
+
+		書庫をドロップした場合は変換、フォルダをドロップした場合は圧縮の動作です。
+
+● 著作権等
+
+	本ソフトで使用させて頂いているライブラリ等は以下の通りです。
+
+	▼ TurboPower Abbrevia
+
+		http://sourceforge.net/projects/tpabbrevia/
+
+	▼ 7z.dll
+
+		Copyright (c) Igor Pavlov
+		http://www.7-zip.org/
+
+	▼ unrar.dll
+
+		Copyright (c) Alexander Roshal
+		http://www.rarlab.com/
+
+	▼ Icons
+
+		Copyright (c) Artcore Illustrations
+		http://blog.artcore-illustrations.de/
+
+● 免責
+
+	本ソフトを使用して生じた損害等について、作者は責任は負いません。使用者の責任
+	で本ソフトを使用してください。
+
+● サポート
+
+	バグや苦情があれば電子メールや掲示板でご報告いただけると幸いです。
+	なお、本ソフトの最新版はhttp://www.haijin-boys.com/で公開しております。
+
+● おわりに
+
+	本ソフトの機能や動作に関して、ご意見ご要望をくださった皆様、検証作業にご協力
+	くださった皆様、ブログに応援メッセージをくださった皆様、そしてArcBoxを愛用して
+	くださっている皆様に感謝いたします。
+
+● 更新履歴
+
+	▼ 2014/02/12 (1.1.0.103)
+
+		細かいバグ修正。
+
+	▼ 2013/05/29 (1.0.1.103)
+
+		複数ファイルドロップ時の安定性を向上。
+		ショートカットへのドロップができなかったのを修正。
+		tar.bz2の解凍ができなかったのを修正。
+		細かいバグ修正。
+
+	▼ 2013/05/11 (1.0.0.86)
+
+		一部の地域で公開。
+
